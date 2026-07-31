@@ -31,7 +31,7 @@ Architecture: amd64
 Maintainer: Industrial Linguistics <packages@industrial-linguistics.com>
 Description: Shopify taxonomy utilities powered by OpenAI
  taxowalk classifies product descriptions into the Shopify taxonomy by
- iteratively querying the gpt-5.4-mini model. Companion tools resolve and
+ iteratively querying the gpt-5.6-luna model. Companion tools resolve and
  inspect taxonomy identifiers.
 CONTROL
 

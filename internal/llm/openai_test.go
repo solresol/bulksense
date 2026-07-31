@@ -207,7 +207,7 @@ func TestChooseOptionRetriesRetryableAPIError(t *testing.T) {
 	sleepCalls := 0
 	model := &OpenAIModel{
 		client:         client,
-		model:          "gpt-5.4-mini",
+		model:          "gpt-5.6-luna",
 		maxAttempts:    3,
 		retryBaseDelay: time.Millisecond,
 		sleep: func(_ context.Context, _ time.Duration) error {
@@ -251,7 +251,7 @@ func TestChooseOptionDoesNotRetryPermanentAPIError(t *testing.T) {
 	sleepCalls := 0
 	model := &OpenAIModel{
 		client:         client,
-		model:          "gpt-5.4-mini",
+		model:          "gpt-5.6-luna",
 		maxAttempts:    3,
 		retryBaseDelay: time.Millisecond,
 		sleep: func(_ context.Context, _ time.Duration) error {

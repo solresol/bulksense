@@ -1,6 +1,6 @@
 # taxowalk
 
-taxowalk classifies free-form product descriptions into the [Shopify product taxonomy](https://github.com/Shopify/product-taxonomy). It incrementally traverses the taxonomy by prompting OpenAI's `gpt-5.4-mini` model with the candidate categories that exist at each level until a leaf node (or "none of these") is selected.
+taxowalk classifies free-form product descriptions into the [Shopify product taxonomy](https://github.com/Shopify/product-taxonomy). It incrementally traverses the taxonomy by prompting OpenAI's `gpt-5.6-luna` model with the candidate categories that exist at each level until a leaf node (or "none of these") is selected.
 
 ## Features
 

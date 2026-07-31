@@ -42,7 +42,7 @@ func NewOpenAIModel(apiKey string, opts ...OptionFunc) (*OpenAIModel, error) {
 	client := openai.NewClientWithConfig(cfg)
 	return &OpenAIModel{
 		client:         client,
-		model:          "gpt-5.4-mini",
+		model:          "gpt-5.6-luna",
 		maxAttempts:    defaultMaxAttempts,
 		retryBaseDelay: time.Second,
 		sleep:          sleepWithContext,
